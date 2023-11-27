@@ -10,7 +10,7 @@ Command: npx @threlte/gltf@2.0.0 static/bolsa_mexicana_de_valores.glb
 
   export const ref = new Group()
 
-  const gltf = useGltf('/static/bolsa_mexicana_de_valores.glb')
+  const gltf = useGltf('/bolsa_mexicana_de_valores.glb')
 
   const component = forwardEventHandlers()
 </script>
