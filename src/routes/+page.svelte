@@ -66,8 +66,8 @@
 <button class="botonP b2" on:click={AZ} disabled={bazdisabled}>{textoBoton2}</button>
 
 <div class="cajaBotones">
-    <a href="trazo_bolsa.blend" class="botonDescarga">Descargar modelo GLTF</a>
-    <a href="trazo_bolsa.blend" class="botonDescarga">Descargar archivo Blender</a>
+    <a href="bolsa_mexicana_de_valores.glb" download class="botonDescarga">Descargar modelo GLTF</a>
+    <a href="trazo_bolsa.blend" download class="botonDescarga">Descargar archivo Blender</a>
 </div>
 
 <Canvas size={{width: innerWidth - 16, height: innerHeight -17}}>
