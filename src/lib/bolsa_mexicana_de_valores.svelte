@@ -23,6 +23,7 @@ Command: npx @threlte/gltf@2.0.0 static/bolsa_mexicana_de_valores.glb
       geometry={gltf.nodes.hypar1002.geometry}
       material={new MeshStandardMaterial({ side: DoubleSide, color: 'white' })}
       rotation={[Math.PI, 0, Math.PI]}
+      castShadow
     />
   {:catch error}
     <slot name="error" {error} />
